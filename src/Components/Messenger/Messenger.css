@@ -1,0 +1,61 @@
+.Messenger{
+    display: flex;
+    height: 87vh ;
+}
+
+.Freinds{
+flex: 3.5;
+}
+.FreindsSearch{
+    padding: 10px 0;
+    width: 90%;
+border: none;
+border-bottom: 1px solid gray;
+}
+.FreindsSearch:focus{
+    outline: none;
+}
+.Messages{
+flex: 5.5;
+}
+.MessagesWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.MessagesTop{
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+.MessagesBottom{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.MessagesInput{
+    width: 80%;
+    height: 90px;
+    padding-right: 10px;
+}
+.MessagesInput:focus{
+    outline: none;
+}
+.MessagesSend{
+    width: 70px;height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #1877f2;
+    color: white;
+}
+.OnlineFreinds{
+   flex: 3; 
+}
+.FriendWrapper,.MessagesWrapper,.OnlineFriendWrapper{
+padding: 10px;
+
+height: 100%;
+}

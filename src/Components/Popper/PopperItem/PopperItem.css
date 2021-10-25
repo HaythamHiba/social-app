@@ -1,0 +1,64 @@
+.popperItemWrapper{
+    padding: 5px;
+    display: flex;
+}
+.popperItemWrapper:hover{
+    background-color: rgb(235, 231, 231);
+}
+.ImgContainer{
+    position: relative;
+    padding: 0;
+    margin-right: 4px;    
+}
+.userImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.IconContainer{
+    background-color: #1877f2;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    text-align: center;
+}
+
+.PopperItemInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.descIn{
+    font-weight: bold;
+    font-size: 13px;
+}
+.timer{
+    font-size: 8px;
+}
+.FreindReq{
+    display: flex;
+
+}
+.submitFriend{
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: #1877f2;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.declineFriend{
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+
+    color: white;
+    background-color: #ccc;
+    border-radius: 10px;
+}

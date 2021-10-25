@@ -1,0 +1,49 @@
+.commentsWrapper{
+    flex:5.5 ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.commentsTop{
+    margin-bottom: 3px;
+}
+.commetnsBottom{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ownerImg{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.Camera{
+    height:18px;
+    width:18px;
+    position:absolute;
+    left:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Camera:hover:active{
+    border: 0.5px solid grey;
+    background-color:rgb(156, 154, 154) ;
+}
+.commentsInput{
+    padding-left: 35px;
+    height: 32px;
+    background-color:#ccc;
+    border-radius: 25px;
+    width: 80%;
+    font-size: small;
+    border: none;
+}
+.SendIcon{
+    cursor: pointer;
+    color: #ccc;
+}
+.commentsInput:focus{
+    outline: none;
+}

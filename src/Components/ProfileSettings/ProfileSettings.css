@@ -1,0 +1,46 @@
+.profileSettings{
+    display: flex;
+    
+}
+.profileSettingsRight{
+    height: 100vh;
+    flex: 9;
+    margin-left: 10px;
+}
+.profileSettingsBottom{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.profileSettingsOption{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+   
+}
+.desc{
+    font-weight: bold;
+}
+.input{
+    height: 20px;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.input:focus{
+    outline: none;
+}
+.submit{
+    height: 20px;
+    width: 10%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit:focus{
+    outline: none;
+}

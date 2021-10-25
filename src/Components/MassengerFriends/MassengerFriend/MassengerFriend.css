@@ -1,0 +1,25 @@
+.Friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.Friend:hover{
+    background-color: rgb(219, 214, 214);
+}
+.ImageContainer{
+    margin-right: 10px;
+    position: relative;
+}
+.ProfileImage{
+    width: 40px;height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nothing{
+   display: none; 
+}
+.Username{
+    font-weight: 500;
+}
